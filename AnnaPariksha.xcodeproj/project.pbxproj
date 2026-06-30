@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29547C092FE127FA008F054D /* Category 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BF02FE127FA008F054D /* Category 2.swift */; };
+		29547C0A2FE127FA008F054D /* IngredientSafetyEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BFC2FE127FA008F054D /* IngredientSafetyEngine.swift */; };
+		29547C0B2FE127FA008F054D /* TestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547C072FE127FA008F054D /* TestType.swift */; };
+		29547C0C2FE127FA008F054D /* Risk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547C012FE127FA008F054D /* Risk.swift */; };
+		29547C0D2FE127FA008F054D /* ScanSafetyReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547C032FE127FA008F054D /* ScanSafetyReportView.swift */; };
+		29547C0E2FE127FA008F054D /* ProtocolSequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BFF2FE127FA008F054D /* ProtocolSequenceView.swift */; };
+		29547C0F2FE127FA008F054D /* DirectCameraScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BF32FE127FA008F054D /* DirectCameraScannerView.swift */; };
+		29547C102FE127FA008F054D /* TestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547C062FE127FA008F054D /* TestResult.swift */; };
+		29547C112FE127FA008F054D /* IngredientModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BFB2FE127FA008F054D /* IngredientModels.swift */; };
+		29547C122FE127FA008F054D /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BF72FE127FA008F054D /* FoodDetailView.swift */; };
+		29547C132FE127FA008F054D /* FoodCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BF52FE127FA008F054D /* FoodCardView.swift */; };
+		29547C142FE127FA008F054D /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BF82FE127FA008F054D /* FoodItem.swift */; };
+		29547C152FE127FA008F054D /* FoodCameraScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BF42FE127FA008F054D /* FoodCameraScannerView.swift */; };
+		29547C162FE127FA008F054D /* RiskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547C022FE127FA008F054D /* RiskData.swift */; };
+		29547C172FE127FA008F054D /* CategoryFilterView 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BF12FE127FA008F054D /* CategoryFilterView 4.swift */; };
+		29547C182FE127FA008F054D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BFE2FE127FA008F054D /* OnboardingView.swift */; };
+		29547C192FE127FA008F054D /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BFA2FE127FA008F054D /* Haptics.swift */; };
+		29547C1A2FE127FA008F054D /* AccessibilitySupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BEE2FE127FA008F054D /* AccessibilitySupport.swift */; };
+		29547C1B2FE127FA008F054D /* AnnaParikshaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BEF2FE127FA008F054D /* AnnaParikshaApp.swift */; };
+		29547C1C2FE127FA008F054D /* TestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547C052FE127FA008F054D /* TestConfiguration.swift */; };
+		29547C1D2FE127FA008F054D /* LaunchLandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BFD2FE127FA008F054D /* LaunchLandingView.swift */; };
+		29547C1E2FE127FA008F054D /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547C042FE127FA008F054D /* SearchBarView.swift */; };
+		29547C1F2FE127FA008F054D /* ProtocolStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547C002FE127FA008F054D /* ProtocolStep.swift */; };
+		29547C202FE127FA008F054D /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BF62FE127FA008F054D /* FoodData.swift */; };
+		29547C212FE127FA008F054D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BF22FE127FA008F054D /* ContentView.swift */; };
+		29547C222FE127FA008F054D /* GlobalNutritionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29547BF92FE127FA008F054D /* GlobalNutritionReference.swift */; };
+		29547C232FE127FA008F054D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29547C082FE127FA008F054D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29547BE02FE127F0008F054D /* AnnaPariksha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnaPariksha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29547BEE2FE127FA008F054D /* AccessibilitySupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilitySupport.swift; sourceTree = "<group>"; };
+		29547BEF2FE127FA008F054D /* AnnaParikshaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnaParikshaApp.swift; sourceTree = "<group>"; };
+		29547BF02FE127FA008F054D /* Category 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category 2.swift"; sourceTree = "<group>"; };
+		29547BF12FE127FA008F054D /* CategoryFilterView 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CategoryFilterView 4.swift"; sourceTree = "<group>"; };
+		29547BF22FE127FA008F054D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29547BF32FE127FA008F054D /* DirectCameraScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectCameraScannerView.swift; sourceTree = "<group>"; };
+		29547BF42FE127FA008F054D /* FoodCameraScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCameraScannerView.swift; sourceTree = "<group>"; };
+		29547BF52FE127FA008F054D /* FoodCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCardView.swift; sourceTree = "<group>"; };
+		29547BF62FE127FA008F054D /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		29547BF72FE127FA008F054D /* FoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
+		29547BF82FE127FA008F054D /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		29547BF92FE127FA008F054D /* GlobalNutritionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalNutritionReference.swift; sourceTree = "<group>"; };
+		29547BFA2FE127FA008F054D /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		29547BFB2FE127FA008F054D /* IngredientModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientModels.swift; sourceTree = "<group>"; };
+		29547BFC2FE127FA008F054D /* IngredientSafetyEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientSafetyEngine.swift; sourceTree = "<group>"; };
+		29547BFD2FE127FA008F054D /* LaunchLandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchLandingView.swift; sourceTree = "<group>"; };
+		29547BFE2FE127FA008F054D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		29547BFF2FE127FA008F054D /* ProtocolSequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolSequenceView.swift; sourceTree = "<group>"; };
+		29547C002FE127FA008F054D /* ProtocolStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolStep.swift; sourceTree = "<group>"; };
+		29547C012FE127FA008F054D /* Risk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Risk.swift; sourceTree = "<group>"; };
+		29547C022FE127FA008F054D /* RiskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskData.swift; sourceTree = "<group>"; };
+		29547C032FE127FA008F054D /* ScanSafetyReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanSafetyReportView.swift; sourceTree = "<group>"; };
+		29547C042FE127FA008F054D /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		29547C052FE127FA008F054D /* TestConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConfiguration.swift; sourceTree = "<group>"; };
+		29547C062FE127FA008F054D /* TestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResult.swift; sourceTree = "<group>"; };
+		29547C072FE127FA008F054D /* TestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestType.swift; sourceTree = "<group>"; };
+		29547C082FE127FA008F054D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		29547BE22FE127F0008F054D /* AnnaPariksha */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AnnaPariksha;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29547BDD2FE127F0008F054D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29547BD72FE127F0008F054D = {
+			isa = PBXGroup;
+			children = (
+				29547BE22FE127F0008F054D /* AnnaPariksha */,
+				29547BE12FE127F0008F054D /* Products */,
+				29547BEE2FE127FA008F054D /* AccessibilitySupport.swift */,
+				29547BEF2FE127FA008F054D /* AnnaParikshaApp.swift */,
+				29547BF02FE127FA008F054D /* Category 2.swift */,
+				29547BF12FE127FA008F054D /* CategoryFilterView 4.swift */,
+				29547BF22FE127FA008F054D /* ContentView.swift */,
+				29547BF32FE127FA008F054D /* DirectCameraScannerView.swift */,
+				29547BF42FE127FA008F054D /* FoodCameraScannerView.swift */,
+				29547BF52FE127FA008F054D /* FoodCardView.swift */,
+				29547BF62FE127FA008F054D /* FoodData.swift */,
+				29547BF72FE127FA008F054D /* FoodDetailView.swift */,
+				29547BF82FE127FA008F054D /* FoodItem.swift */,
+				29547BF92FE127FA008F054D /* GlobalNutritionReference.swift */,
+				29547BFA2FE127FA008F054D /* Haptics.swift */,
+				29547BFB2FE127FA008F054D /* IngredientModels.swift */,
+				29547BFC2FE127FA008F054D /* IngredientSafetyEngine.swift */,
+				29547BFD2FE127FA008F054D /* LaunchLandingView.swift */,
+				29547BFE2FE127FA008F054D /* OnboardingView.swift */,
+				29547BFF2FE127FA008F054D /* ProtocolSequenceView.swift */,
+				29547C002FE127FA008F054D /* ProtocolStep.swift */,
+				29547C012FE127FA008F054D /* Risk.swift */,
+				29547C022FE127FA008F054D /* RiskData.swift */,
+				29547C032FE127FA008F054D /* ScanSafetyReportView.swift */,
+				29547C042FE127FA008F054D /* SearchBarView.swift */,
+				29547C052FE127FA008F054D /* TestConfiguration.swift */,
+				29547C062FE127FA008F054D /* TestResult.swift */,
+				29547C072FE127FA008F054D /* TestType.swift */,
+				29547C082FE127FA008F054D /* Assets.xcassets */,
+			);
+			sourceTree = "<group>";
+		};
+		29547BE12FE127F0008F054D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29547BE02FE127F0008F054D /* AnnaPariksha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29547BDF2FE127F0008F054D /* AnnaPariksha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29547BEB2FE127F2008F054D /* Build configuration list for PBXNativeTarget "AnnaPariksha" */;
+			buildPhases = (
+				29547BDC2FE127F0008F054D /* Sources */,
+				29547BDD2FE127F0008F054D /* Frameworks */,
+				29547BDE2FE127F0008F054D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				29547BE22FE127F0008F054D /* AnnaPariksha */,
+			);
+			name = AnnaPariksha;
+			packageProductDependencies = (
+			);
+			productName = AnnaPariksha;
+			productReference = 29547BE02FE127F0008F054D /* AnnaPariksha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29547BD82FE127F0008F054D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					29547BDF2FE127F0008F054D = {
+						CreatedOnToolsVersion = 26.5;
+						LastSwiftMigration = 2650;
+					};
+				};
+			};
+			buildConfigurationList = 29547BDB2FE127F0008F054D /* Build configuration list for PBXProject "AnnaPariksha" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29547BD72FE127F0008F054D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 29547BE12FE127F0008F054D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29547BDF2FE127F0008F054D /* AnnaPariksha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29547BDE2FE127F0008F054D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29547C232FE127FA008F054D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29547BDC2FE127F0008F054D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29547C092FE127FA008F054D /* Category 2.swift in Sources */,
+				29547C0A2FE127FA008F054D /* IngredientSafetyEngine.swift in Sources */,
+				29547C0B2FE127FA008F054D /* TestType.swift in Sources */,
+				29547C0C2FE127FA008F054D /* Risk.swift in Sources */,
+				29547C0D2FE127FA008F054D /* ScanSafetyReportView.swift in Sources */,
+				29547C0E2FE127FA008F054D /* ProtocolSequenceView.swift in Sources */,
+				29547C0F2FE127FA008F054D /* DirectCameraScannerView.swift in Sources */,
+				29547C102FE127FA008F054D /* TestResult.swift in Sources */,
+				29547C112FE127FA008F054D /* IngredientModels.swift in Sources */,
+				29547C122FE127FA008F054D /* FoodDetailView.swift in Sources */,
+				29547C132FE127FA008F054D /* FoodCardView.swift in Sources */,
+				29547C142FE127FA008F054D /* FoodItem.swift in Sources */,
+				29547C152FE127FA008F054D /* FoodCameraScannerView.swift in Sources */,
+				29547C162FE127FA008F054D /* RiskData.swift in Sources */,
+				29547C172FE127FA008F054D /* CategoryFilterView 4.swift in Sources */,
+				29547C182FE127FA008F054D /* OnboardingView.swift in Sources */,
+				29547C192FE127FA008F054D /* Haptics.swift in Sources */,
+				29547C1A2FE127FA008F054D /* AccessibilitySupport.swift in Sources */,
+				29547C1B2FE127FA008F054D /* AnnaParikshaApp.swift in Sources */,
+				29547C1C2FE127FA008F054D /* TestConfiguration.swift in Sources */,
+				29547C1D2FE127FA008F054D /* LaunchLandingView.swift in Sources */,
+				29547C1E2FE127FA008F054D /* SearchBarView.swift in Sources */,
+				29547C1F2FE127FA008F054D /* ProtocolStep.swift in Sources */,
+				29547C202FE127FA008F054D /* FoodData.swift in Sources */,
+				29547C212FE127FA008F054D /* ContentView.swift in Sources */,
+				29547C222FE127FA008F054D /* GlobalNutritionReference.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		29547BE92FE127F2008F054D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YASVDGSWWN;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29547BEA2FE127F2008F054D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YASVDGSWWN;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		29547BEC2FE127F2008F054D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9X73TR74K2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AnnaPariksha uses the camera to scan packaged food ingredient and nutrition labels for on-device educational label screening. Photos are not saved by the app.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.galgotias.annapariksha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29547BED2FE127F2008F054D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9X73TR74K2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AnnaPariksha uses the camera to scan packaged food ingredient and nutrition labels for on-device educational label screening. Photos are not saved by the app.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.galgotias.annapariksha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29547BDB2FE127F0008F054D /* Build configuration list for PBXProject "AnnaPariksha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29547BE92FE127F2008F054D /* Debug */,
+				29547BEA2FE127F2008F054D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29547BEB2FE127F2008F054D /* Build configuration list for PBXNativeTarget "AnnaPariksha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29547BEC2FE127F2008F054D /* Debug */,
+				29547BED2FE127F2008F054D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29547BD82FE127F0008F054D /* Project object */;
+}
